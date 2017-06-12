@@ -2,6 +2,8 @@ Musical Instument and Visualizer
 Akshay Rajagopal, akshayr2  
 Charles Hale, cphalepk  
 
+The code for this project can be found at: https://github.com/cphalepk/vr_final
+You should use this link instead of gradescope.
 This directory has two subdirectories
 VR Final Project contains all the Unity code
 vrduino contains all the VRduino code
