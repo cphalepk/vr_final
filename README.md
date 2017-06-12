@@ -1,6 +1,6 @@
-Musical Instument and Visualizer
-Akshay Rajagopal, akshayr2
-Charles Hale, cphalepk
+Musical Instument and Visualizer  
+Akshay Rajagopal, akshayr2  
+Charles Hale, cphalepk  
 
 This directory has two subdirectories
 VR Final Project contains all the Unity code
