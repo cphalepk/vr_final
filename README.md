@@ -15,13 +15,13 @@ Positional tracking was implemented but is disabled in vrduino.ino for demo (it 
 Within the scene, we have a series of pylons as a visual cue for where to point the wand. The left side corresponds to low pitch while the right side corresponds to high pitch. The bottom corresponds to high volume while the top corresponds to low volume.
 
 The majority of the work we did is in:
-/vrduino
-vrduino.ino - contains vrduino code for streaming in the right format.
-/VR Final Project/Assets:
-scene1.unity - main scene
-ReadUSB.cs - streams input values for wand position/orientation.
-pylonpositioning.cs - sets the position for each of the cylinders around the perimeter that correspond to music visualization.
-Cylinder.cs - attached to each cylinder on the perimeter so that they react to the STFT of the instrument output.
-Instrument.cs - attached to an audio source attached to the wand so that we set the sound in relation the the position and orientation of the object it is attached to.
-SpotLightController.cs - controls the color that appears when we point the wand on the plane spanned by the pylons.
-strings.wav - the edited audio file for looping sound for our instrument.
+* /vrduino
+  * vrduino.ino - contains vrduino code for streaming in the right format.
+* /VR Final Project/Assets:
+  * scene1.unity - main scene  
+  * ReadUSB.cs - streams input values for wand position/orientation.  
+  * pylonpositioning.cs - sets the position for each of the cylinders around the perimeter that correspond to music visualization.  
+  * Cylinder.cs - attached to each cylinder on the perimeter so that they react to the STFT of the instrument output.  
+  * Instrument.cs - attached to an audio source attached to the wand so that we set the sound in relation the the position and orientation of the object it is attached to.  
+  * SpotLightController.cs - controls the color that appears when we point the wand on the plane spanned by the pylons.  
+  * strings.wav - the edited audio file for looping sound for our instrument.  
